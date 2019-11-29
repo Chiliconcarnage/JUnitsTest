@@ -49,7 +49,7 @@ public class LinkedList{
         int jump;
 
         if(index>listSize || index<1){
-            System.out.println("Add Failed: index out of bounds of size of linked list!!");
+            //System.out.println("Add Failed: index out of bounds of size of linked list!!");
             return false;
         }
         else{
@@ -61,7 +61,7 @@ public class LinkedList{
             end.next = current.next;
             current.next = end;
             listSize++;
-            System.out.println("Success! "+content+" added at index "+index);
+            //System.out.println("Success! "+content+" added at index "+index);
             return true;
         }
     }
